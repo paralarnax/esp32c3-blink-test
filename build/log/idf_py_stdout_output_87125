@@ -1,0 +1,2480 @@
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4004c632
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1738
+load:0x403cc710,len:0xb9c
+load:0x403ce710,len:0x2e34
+entry 0x403cc71a
+[0;32mI (24) boot: ESP-IDF v5.3-dev-696-g76923a7a7f 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Dec  2 2023 12:17:43[0m
+[0;32mI (25) boot: chip revision: v0.4[0m
+[0;32mI (29) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (38) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=09ed8h ( 40664) map[0m
+[0;32mI (101) esp_image: segment 1: paddr=00019f00 vaddr=3fc8ae00 size=012d4h (  4820) load[0m
+[0;32mI (104) esp_image: segment 2: paddr=0001b1dc vaddr=40380000 size=04e3ch ( 20028) load[0m
+[0;32mI (115) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=17a38h ( 96824) map[0m
+[0;32mI (135) esp_image: segment 4: paddr=00037a60 vaddr=40384e3c size=05eech ( 24300) load[0m
+[0;32mI (143) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (144) boot: Disabling RNG early entropy source...[0m
+[0;32mI (155) cpu_start: Unicore app[0m
+[0;32mI (164) cpu_start: Pro cpu start user code[0m
+[0;32mI (164) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (164) cpu_start: Application information:[0m
+[0;32mI (167) cpu_start: Project name:     blink-test[0m
+[0;32mI (172) cpu_start: App version:      v5.3-dev-696-g76923a7a7f[0m
+[0;32mI (179) cpu_start: Compile time:     Dec  2 2023 12:17:53[0m
+[0;32mI (185) cpu_start: ELF file SHA256:  3ecd52178...[0m
+[0;32mI (190) cpu_start: ESP-IDF:          v5.3-dev-696-g76923a7a7f[0m
+[0;32mI (197) cpu_start: Min chip rev:     v0.3[0m
+[0;32mI (201) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (206) cpu_start: Chip rev:         v0.4[0m
+[0;32mI (211) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (218) heap_init: At 3FC8D070 len 00032F90 (203 KiB): RAM[0m
+[0;32mI (224) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (231) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (238) heap_init: At 50000010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (246) spi_flash: detected chip: generic[0m
+[0;32mI (249) spi_flash: flash io: dio[0m
+[0;33mW (253) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (267) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (273) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (280) main_task: Started on CPU0[0m
+[0;32mI (280) main_task: Calling app_main()[0m
+[0;32mI (280) main: Hello esp32!
+[0m
+[0;32mI (290) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (300) main: Turn OFF!
+[0m
+[0;32mI (500) main: Turn ON!
+[0m
+[0;32mI (700) main: Turn OFF!
+[0m
+[0;32mI (900) main: Turn ON!
+[0m
+[0;32mI (1100) main: Turn OFF!
+[0m
+[0;32mI (1300) main: Turn ON!
+[0m
+[0;32mI (1500) main: Turn OFF!
+[0m
+[0;32mI (1700) main: Turn ON!
+[0m
+[0;32mI (1900) main: Turn OFF!
+[0m
+[0;32mI (2100) main: Turn ON!
+[0m
+[0;32mI (2300) main: Turn OFF!
+[0m
+[0;32mI (2500) main: Turn ON!
+[0m
+[0;32mI (2700) main: Turn OFF!
+[0m
+[0;32mI (2900) main: Turn ON!
+[0m
+[0;32mI (3100) main: Turn OFF!
+[0m
+[0;32mI (3300) main: Turn ON!
+[0m
+[0;32mI (3500) main: Turn OFF!
+[0m
+[0;32mI (3700) main: Turn ON!
+[0m
+[0;32mI (3900) main: Turn OFF!
+[0m
+[0;32mI (4100) main: Turn ON!
+[0m
+[0;32mI (4300) main: Turn OFF!
+[0m
+[0;32mI (4500) main: Turn ON!
+[0m
+[0;32mI (4700) main: Turn OFF!
+[0m
+[0;32mI (4900) main: Turn ON!
+[0m
+[0;32mI (5100) main: Turn OFF!
+[0m
+[0;32mI (5300) main: Turn ON!
+[0m
+[0;32mI (5500) main: Turn OFF!
+[0m
+[0;32mI (5700) main: Turn ON!
+[0m
+[0;32mI (5900) main: Turn OFF!
+[0m
+[0;32mI (6100) main: Turn ON!
+[0m
+[0;32mI (6300) main: Turn OFF!
+[0m
+[0;32mI (6500) main: Turn ON!
+[0m
+[0;32mI (6700) main: Turn OFF!
+[0m
+[0;32mI (6900) main: Turn ON!
+[0m
+[0;32mI (7100) main: Turn OFF!
+[0m
+[0;32mI (7300) main: Turn ON!
+[0m
+[0;32mI (7500) main: Turn OFF!
+[0m
+[0;32mI (7700) main: Turn ON!
+[0m
+[0;32mI (7900) main: Turn OFF!
+[0m
+[0;32mI (8100) main: Turn ON!
+[0m
+[0;32mI (8300) main: Turn OFF!
+[0m
+[0;32mI (8500) main: Turn ON!
+[0m
+[0;32mI (8700) main: Turn OFF!
+[0m
+[0;32mI (8900) main: Turn ON!
+[0m
+[0;32mI (9100) main: Turn OFF!
+[0m
+[0;32mI (9300) main: Turn ON!
+[0m
+[0;32mI (9500) main: Turn OFF!
+[0m
+[0;32mI (9700) main: Turn ON!
+[0m
+[0;32mI (9900) main: Turn OFF!
+[0m
+[0;32mI (10100) main: Turn ON!
+[0m
+[0;32mI (10300) main: Turn OFF!
+[0m
+[0;32mI (10500) main: Turn ON!
+[0m
+[0;32mI (10700) main: Turn OFF!
+[0m
+[0;32mI (10900) main: Turn ON!
+[0m
+[0;32mI (11100) main: Turn OFF!
+[0m
+[0;32mI (11300) main: Turn ON!
+[0m
+[0;32mI (11500) main: Turn OFF!
+[0m
+[0;32mI (11700) main: Turn ON!
+[0m
+[0;32mI (11900) main: Turn OFF!
+[0m
+[0;32mI (12100) main: Turn ON!
+[0m
+[0;32mI (12300) main: Turn OFF!
+[0m
+[0;32mI (12500) main: Turn ON!
+[0m
+[0;32mI (12700) main: Turn OFF!
+[0m
+[0;32mI (12900) main: Turn ON!
+[0m
+[0;32mI (13100) main: Turn OFF!
+[0m
+[0;32mI (13300) main: Turn ON!
+[0m
+[0;32mI (13500) main: Turn OFF!
+[0m
+[0;32mI (13700) main: Turn ON!
+[0m
+[0;32mI (13900) main: Turn OFF!
+[0m
+[0;32mI (14100) main: Turn ON!
+[0m
+[0;32mI (14300) main: Turn OFF!
+[0m
+[0;32mI (14500) main: Turn ON!
+[0m
+[0;32mI (14700) main: Turn OFF!
+[0m
+[0;32mI (14900) main: Turn ON!
+[0m
+[0;32mI (15100) main: Turn OFF!
+[0m
+[0;32mI (15300) main: Turn ON!
+[0m
+[0;32mI (15500) main: Turn OFF!
+[0m
+[0;32mI (15700) main: Turn ON!
+[0m
+[0;32mI (15900) main: Turn OFF!
+[0m
+[0;32mI (16100) main: Turn ON!
+[0m
+[0;32mI (16300) main: Turn OFF!
+[0m
+[0;32mI (16500) main: Turn ON!
+[0m
+[0;32mI (16700) main: Turn OFF!
+[0m
+[0;32mI (16900) main: Turn ON!
+[0m
+[0;32mI (17100) main: Turn OFF!
+[0m
+[0;32mI (17300) main: Turn ON!
+[0m
+[0;32mI (17500) main: Turn OFF!
+[0m
+[0;32mI (17700) main: Turn ON!
+[0m
+[0;32mI (17900) main: Turn OFF!
+[0m
+[0;32mI (18100) main: Turn ON!
+[0m
+[0;32mI (18300) main: Turn OFF!
+[0m
+[0;32mI (18500) main: Turn ON!
+[0m
+[0;32mI (18700) main: Turn OFF!
+[0m
+[0;32mI (18900) main: Turn ON!
+[0m
+[0;32mI (19100) main: Turn OFF!
+[0m
+[0;32mI (19300) main: Turn ON!
+[0m
+[0;32mI (19500) main: Turn OFF!
+[0m
+[0;32mI (19700) main: Turn ON!
+[0m
+[0;32mI (19900) main: Turn OFF!
+[0m
+[0;32mI (20100) main: Turn ON!
+[0m
+[0;32mI (20300) main: Turn OFF!
+[0m
+[0;32mI (20500) main: Turn ON!
+[0m
+[0;32mI (20700) main: Turn OFF!
+[0m
+[0;32mI (20900) main: Turn ON!
+[0m
+[0;32mI (21100) main: Turn OFF!
+[0m
+[0;32mI (21300) main: Turn ON!
+[0m
+[0;32mI (21500) main: Turn OFF!
+[0m
+[0;32mI (21700) main: Turn ON!
+[0m
+[0;32mI (21900) main: Turn OFF!
+[0m
+[0;32mI (22100) main: Turn ON!
+[0m
+[0;32mI (22300) main: Turn OFF!
+[0m
+[0;32mI (22500) main: Turn ON!
+[0m
+[0;32mI (22700) main: Turn OFF!
+[0m
+[0;32mI (22900) main: Turn ON!
+[0m
+[0;32mI (23100) main: Turn OFF!
+[0m
+[0;32mI (23300) main: Turn ON!
+[0m
+[0;32mI (23500) main: Turn OFF!
+[0m
+[0;32mI (23700) main: Turn ON!
+[0m
+[0;32mI (23900) main: Turn OFF!
+[0m
+[0;32mI (24100) main: Turn ON!
+[0m
+[0;32mI (24300) main: Turn OFF!
+[0m
+[0;32mI (24500) main: Turn ON!
+[0m
+[0;32mI (24700) main: Turn OFF!
+[0m
+[0;32mI (24900) main: Turn ON!
+[0m
+[0;32mI (25100) main: Turn OFF!
+[0m
+[0;32mI (25300) main: Turn ON!
+[0m
+[0;32mI (25500) main: Turn OFF!
+[0m
+[0;32mI (25700) main: Turn ON!
+[0m
+[0;32mI (25900) main: Turn OFF!
+[0m
+[0;32mI (26100) main: Turn ON!
+[0m
+[0;32mI (26300) main: Turn OFF!
+[0m
+[0;32mI (26500) main: Turn ON!
+[0m
+[0;32mI (26700) main: Turn OFF!
+[0m
+[0;32mI (26900) main: Turn ON!
+[0m
+[0;32mI (27100) main: Turn OFF!
+[0m
+[0;32mI (27300) main: Turn ON!
+[0m
+[0;32mI (27500) main: Turn OFF!
+[0m
+[0;32mI (27700) main: Turn ON!
+[0m
+[0;32mI (27900) main: Turn OFF!
+[0m
+[0;32mI (28100) main: Turn ON!
+[0m
+[0;32mI (28300) main: Turn OFF!
+[0m
+[0;32mI (28500) main: Turn ON!
+[0m
+[0;32mI (28700) main: Turn OFF!
+[0m
+[0;32mI (28900) main: Turn ON!
+[0m
+[0;32mI (29100) main: Turn OFF!
+[0m
+[0;32mI (29300) main: Turn ON!
+[0m
+[0;32mI (29500) main: Turn OFF!
+[0m
+[0;32mI (29700) main: Turn ON!
+[0m
+[0;32mI (29900) main: Turn OFF!
+[0m
+[0;32mI (30100) main: Turn ON!
+[0m
+[0;32mI (30300) main: Turn OFF!
+[0m
+[0;32mI (30500) main: Turn ON!
+[0m
+[0;32mI (30700) main: Turn OFF!
+[0m
+[0;32mI (30900) main: Turn ON!
+[0m
+[0;32mI (31100) main: Turn OFF!
+[0m
+[0;32mI (31300) main: Turn ON!
+[0m
+[0;32mI (31500) main: Turn OFF!
+[0m
+[0;32mI (31700) main: Turn ON!
+[0m
+[0;32mI (31900) main: Turn OFF!
+[0m
+[0;32mI (32100) main: Turn ON!
+[0m
+[0;32mI (32300) main: Turn OFF!
+[0m
+[0;32mI (32500) main: Turn ON!
+[0m
+[0;32mI (32700) main: Turn OFF!
+[0m
+[0;32mI (32900) main: Turn ON!
+[0m
+[0;32mI (33100) main: Turn OFF!
+[0m
+[0;32mI (33300) main: Turn ON!
+[0m
+[0;32mI (33500) main: Turn OFF!
+[0m
+[0;32mI (33700) main: Turn ON!
+[0m
+[0;32mI (33900) main: Turn OFF!
+[0m
+[0;32mI (34100) main: Turn ON!
+[0m
+[0;32mI (34300) main: Turn OFF!
+[0m
+[0;32mI (34500) main: Turn ON!
+[0m
+[0;32mI (34700) main: Turn OFF!
+[0m
+[0;32mI (34900) main: Turn ON!
+[0m
+[0;32mI (35100) main: Turn OFF!
+[0m
+[0;32mI (35300) main: Turn ON!
+[0m
+[0;32mI (35500) main: Turn OFF!
+[0m
+[0;32mI (35700) main: Turn ON!
+[0m
+[0;32mI (35900) main: Turn OFF!
+[0m
+[0;32mI (36100) main: Turn ON!
+[0m
+[0;32mI (36300) main: Turn OFF!
+[0m
+[0;32mI (36500) main: Turn ON!
+[0m
+[0;32mI (36700) main: Turn OFF!
+[0m
+[0;32mI (36900) main: Turn ON!
+[0m
+[0;32mI (37100) main: Turn OFF!
+[0m
+[0;32mI (37300) main: Turn ON!
+[0m
+[0;32mI (37500) main: Turn OFF!
+[0m
+[0;32mI (37700) main: Turn ON!
+[0m
+[0;32mI (37900) main: Turn OFF!
+[0m
+[0;32mI (38100) main: Turn ON!
+[0m
+[0;32mI (38300) main: Turn OFF!
+[0m
+[0;32mI (38500) main: Turn ON!
+[0m
+[0;32mI (38700) main: Turn OFF!
+[0m
+[0;32mI (38900) main: Turn ON!
+[0m
+[0;32mI (39100) main: Turn OFF!
+[0m
+[0;32mI (39300) main: Turn ON!
+[0m
+[0;32mI (39500) main: Turn OFF!
+[0m
+[0;32mI (39700) main: Turn ON!
+[0m
+[0;32mI (39900) main: Turn OFF!
+[0m
+[0;32mI (40100) main: Turn ON!
+[0m
+[0;32mI (40300) main: Turn OFF!
+[0m
+[0;32mI (40500) main: Turn ON!
+[0m
+[0;32mI (40700) main: Turn OFF!
+[0m
+[0;32mI (40900) main: Turn ON!
+[0m
+[0;32mI (41100) main: Turn OFF!
+[0m
+[0;32mI (41300) main: Turn ON!
+[0m
+[0;32mI (41500) main: Turn OFF!
+[0m
+[0;32mI (41700) main: Turn ON!
+[0m
+[0;32mI (41900) main: Turn OFF!
+[0m
+[0;32mI (42100) main: Turn ON!
+[0m
+[0;32mI (42300) main: Turn OFF!
+[0m
+[0;32mI (42500) main: Turn ON!
+[0m
+[0;32mI (42700) main: Turn OFF!
+[0m
+[0;32mI (42900) main: Turn ON!
+[0m
+[0;32mI (43100) main: Turn OFF!
+[0m
+[0;32mI (43300) main: Turn ON!
+[0m
+[0;32mI (43500) main: Turn OFF!
+[0m
+[0;32mI (43700) main: Turn ON!
+[0m
+[0;32mI (43900) main: Turn OFF!
+[0m
+[0;32mI (44100) main: Turn ON!
+[0m
+[0;32mI (44300) main: Turn OFF!
+[0m
+[0;32mI (44500) main: Turn ON!
+[0m
+[0;32mI (44700) main: Turn OFF!
+[0m
+[0;32mI (44900) main: Turn ON!
+[0m
+[0;32mI (45100) main: Turn OFF!
+[0m
+[0;32mI (45300) main: Turn ON!
+[0m
+[0;32mI (45500) main: Turn OFF!
+[0m
+[0;32mI (45700) main: Turn ON!
+[0m
+[0;32mI (45900) main: Turn OFF!
+[0m
+[0;32mI (46100) main: Turn ON!
+[0m
+[0;32mI (46300) main: Turn OFF!
+[0m
+[0;32mI (46500) main: Turn ON!
+[0m
+[0;32mI (46700) main: Turn OFF!
+[0m
+[0;32mI (46900) main: Turn ON!
+[0m
+[0;32mI (47100) main: Turn OFF!
+[0m
+[0;32mI (47300) main: Turn ON!
+[0m
+[0;32mI (47500) main: Turn OFF!
+[0m
+[0;32mI (47700) main: Turn ON!
+[0m
+[0;32mI (47900) main: Turn OFF!
+[0m
+[0;32mI (48100) main: Turn ON!
+[0m
+[0;32mI (48300) main: Turn OFF!
+[0m
+[0;32mI (48500) main: Turn ON!
+[0m
+[0;32mI (48700) main: Turn OFF!
+[0m
+[0;32mI (48900) main: Turn ON!
+[0m
+[0;32mI (49100) main: Turn OFF!
+[0m
+[0;32mI (49300) main: Turn ON!
+[0m
+[0;32mI (49500) main: Turn OFF!
+[0m
+[0;32mI (49700) main: Turn ON!
+[0m
+[0;32mI (49900) main: Turn OFF!
+[0m
+[0;32mI (50100) main: Turn ON!
+[0m
+[0;32mI (50300) main: Turn OFF!
+[0m
+[0;32mI (50500) main: Turn ON!
+[0m
+[0;32mI (50700) main: Turn OFF!
+[0m
+[0;32mI (50900) main: Turn ON!
+[0m
+[0;32mI (51100) main: Turn OFF!
+[0m
+[0;32mI (51300) main: Turn ON!
+[0m
+[0;32mI (51500) main: Turn OFF!
+[0m
+[0;32mI (51700) main: Turn ON!
+[0m
+[0;32mI (51900) main: Turn OFF!
+[0m
+[0;32mI (52100) main: Turn ON!
+[0m
+[0;32mI (52300) main: Turn OFF!
+[0m
+[0;32mI (52500) main: Turn ON!
+[0m
+[0;32mI (52700) main: Turn OFF!
+[0m
+[0;32mI (52900) main: Turn ON!
+[0m
+[0;32mI (53100) main: Turn OFF!
+[0m
+[0;32mI (53300) main: Turn ON!
+[0m
+[0;32mI (53500) main: Turn OFF!
+[0m
+[0;32mI (53700) main: Turn ON!
+[0m
+[0;32mI (53900) main: Turn OFF!
+[0m
+[0;32mI (54100) main: Turn ON!
+[0m
+[0;32mI (54300) main: Turn OFF!
+[0m
+[0;32mI (54500) main: Turn ON!
+[0m
+[0;32mI (54700) main: Turn OFF!
+[0m
+[0;32mI (54900) main: Turn ON!
+[0m
+[0;32mI (55100) main: Turn OFF!
+[0m
+[0;32mI (55300) main: Turn ON!
+[0m
+[0;32mI (55500) main: Turn OFF!
+[0m
+[0;32mI (55700) main: Turn ON!
+[0m
+[0;32mI (55900) main: Turn OFF!
+[0m
+[0;32mI (56100) main: Turn ON!
+[0m
+[0;32mI (56300) main: Turn OFF!
+[0m
+[0;32mI (56500) main: Turn ON!
+[0m
+[0;32mI (56700) main: Turn OFF!
+[0m
+[0;32mI (56900) main: Turn ON!
+[0m
+[0;32mI (57100) main: Turn OFF!
+[0m
+[0;32mI (57300) main: Turn ON!
+[0m
+[0;32mI (57500) main: Turn OFF!
+[0m
+[0;32mI (57700) main: Turn ON!
+[0m
+[0;32mI (57900) main: Turn OFF!
+[0m
+[0;32mI (58100) main: Turn ON!
+[0m
+[0;32mI (58300) main: Turn OFF!
+[0m
+[0;32mI (58500) main: Turn ON!
+[0m
+[0;32mI (58700) main: Turn OFF!
+[0m
+[0;32mI (58900) main: Turn ON!
+[0m
+[0;32mI (59100) main: Turn OFF!
+[0m
+[0;32mI (59300) main: Turn ON!
+[0m
+[0;32mI (59500) main: Turn OFF!
+[0m
+[0;32mI (59700) main: Turn ON!
+[0m
+[0;32mI (59900) main: Turn OFF!
+[0m
+[0;32mI (60100) main: Turn ON!
+[0m
+[0;32mI (60300) main: Turn OFF!
+[0m
+[0;32mI (60500) main: Turn ON!
+[0m
+[0;32mI (60700) main: Turn OFF!
+[0m
+[0;32mI (60900) main: Turn ON!
+[0m
+[0;32mI (61100) main: Turn OFF!
+[0m
+[0;32mI (61300) main: Turn ON!
+[0m
+[0;32mI (61500) main: Turn OFF!
+[0m
+[0;32mI (61700) main: Turn ON!
+[0m
+[0;32mI (61900) main: Turn OFF!
+[0m
+[0;32mI (62100) main: Turn ON!
+[0m
+[0;32mI (62300) main: Turn OFF!
+[0m
+[0;32mI (62500) main: Turn ON!
+[0m
+[0;32mI (62700) main: Turn OFF!
+[0m
+[0;32mI (62900) main: Turn ON!
+[0m
+[0;32mI (63100) main: Turn OFF!
+[0m
+[0;32mI (63300) main: Turn ON!
+[0m
+[0;32mI (63500) main: Turn OFF!
+[0m
+[0;32mI (63700) main: Turn ON!
+[0m
+[0;32mI (63900) main: Turn OFF!
+[0m
+[0;32mI (64100) main: Turn ON!
+[0m
+[0;32mI (64300) main: Turn OFF!
+[0m
+[0;32mI (64500) main: Turn ON!
+[0m
+[0;32mI (64700) main: Turn OFF!
+[0m
+[0;32mI (64900) main: Turn ON!
+[0m
+[0;32mI (65100) main: Turn OFF!
+[0m
+[0;32mI (65300) main: Turn ON!
+[0m
+[0;32mI (65500) main: Turn OFF!
+[0m
+[0;32mI (65700) main: Turn ON!
+[0m
+[0;32mI (65900) main: Turn OFF!
+[0m
+[0;32mI (66100) main: Turn ON!
+[0m
+[0;32mI (66300) main: Turn OFF!
+[0m
+[0;32mI (66500) main: Turn ON!
+[0m
+[0;32mI (66700) main: Turn OFF!
+[0m
+[0;32mI (66900) main: Turn ON!
+[0m
+[0;32mI (67100) main: Turn OFF!
+[0m
+[0;32mI (67300) main: Turn ON!
+[0m
+[0;32mI (67500) main: Turn OFF!
+[0m
+[0;32mI (67700) main: Turn ON!
+[0m
+[0;32mI (67900) main: Turn OFF!
+[0m
+[0;32mI (68100) main: Turn ON!
+[0m
+[0;32mI (68300) main: Turn OFF!
+[0m
+[0;32mI (68500) main: Turn ON!
+[0m
+[0;32mI (68700) main: Turn OFF!
+[0m
+[0;32mI (68900) main: Turn ON!
+[0m
+[0;32mI (69100) main: Turn OFF!
+[0m
+[0;32mI (69300) main: Turn ON!
+[0m
+[0;32mI (69500) main: Turn OFF!
+[0m
+[0;32mI (69700) main: Turn ON!
+[0m
+[0;32mI (69900) main: Turn OFF!
+[0m
+[0;32mI (70100) main: Turn ON!
+[0m
+[0;32mI (70300) main: Turn OFF!
+[0m
+[0;32mI (70500) main: Turn ON!
+[0m
+[0;32mI (70700) main: Turn OFF!
+[0m
+[0;32mI (70900) main: Turn ON!
+[0m
+[0;32mI (71100) main: Turn OFF!
+[0m
+[0;32mI (71300) main: Turn ON!
+[0m
+[0;32mI (71500) main: Turn OFF!
+[0m
+[0;32mI (71700) main: Turn ON!
+[0m
+[0;32mI (71900) main: Turn OFF!
+[0m
+[0;32mI (72100) main: Turn ON!
+[0m
+[0;32mI (72300) main: Turn OFF!
+[0m
+[0;32mI (72500) main: Turn ON!
+[0m
+[0;32mI (72700) main: Turn OFF!
+[0m
+[0;32mI (72900) main: Turn ON!
+[0m
+[0;32mI (73100) main: Turn OFF!
+[0m
+[0;32mI (73300) main: Turn ON!
+[0m
+[0;32mI (73500) main: Turn OFF!
+[0m
+[0;32mI (73700) main: Turn ON!
+[0m
+[0;32mI (73900) main: Turn OFF!
+[0m
+[0;32mI (74100) main: Turn ON!
+[0m
+[0;32mI (74300) main: Turn OFF!
+[0m
+[0;32mI (74500) main: Turn ON!
+[0m
+[0;32mI (74700) main: Turn OFF!
+[0m
+[0;32mI (74900) main: Turn ON!
+[0m
+[0;32mI (75100) main: Turn OFF!
+[0m
+[0;32mI (75300) main: Turn ON!
+[0m
+[0;32mI (75500) main: Turn OFF!
+[0m
+[0;32mI (75700) main: Turn ON!
+[0m
+[0;32mI (75900) main: Turn OFF!
+[0m
+[0;32mI (76100) main: Turn ON!
+[0m
+[0;32mI (76300) main: Turn OFF!
+[0m
+[0;32mI (76500) main: Turn ON!
+[0m
+[0;32mI (76700) main: Turn OFF!
+[0m
+[0;32mI (76900) main: Turn ON!
+[0m
+[0;32mI (77100) main: Turn OFF!
+[0m
+[0;32mI (77300) main: Turn ON!
+[0m
+[0;32mI (77500) main: Turn OFF!
+[0m
+[0;32mI (77700) main: Turn ON!
+[0m
+[0;32mI (77900) main: Turn OFF!
+[0m
+[0;32mI (78100) main: Turn ON!
+[0m
+[0;32mI (78300) main: Turn OFF!
+[0m
+[0;32mI (78500) main: Turn ON!
+[0m
+[0;32mI (78700) main: Turn OFF!
+[0m
+[0;32mI (78900) main: Turn ON!
+[0m
+[0;32mI (79100) main: Turn OFF!
+[0m
+[0;32mI (79300) main: Turn ON!
+[0m
+[0;32mI (79500) main: Turn OFF!
+[0m
+[0;32mI (79700) main: Turn ON!
+[0m
+[0;32mI (79900) main: Turn OFF!
+[0m
+[0;32mI (80100) main: Turn ON!
+[0m
+[0;32mI (80300) main: Turn OFF!
+[0m
+[0;32mI (80500) main: Turn ON!
+[0m
+[0;32mI (80700) main: Turn OFF!
+[0m
+[0;32mI (80900) main: Turn ON!
+[0m
+[0;32mI (81100) main: Turn OFF!
+[0m
+[0;32mI (81300) main: Turn ON!
+[0m
+[0;32mI (81500) main: Turn OFF!
+[0m
+[0;32mI (81700) main: Turn ON!
+[0m
+[0;32mI (81900) main: Turn OFF!
+[0m
+[0;32mI (82100) main: Turn ON!
+[0m
+[0;32mI (82300) main: Turn OFF!
+[0m
+[0;32mI (82500) main: Turn ON!
+[0m
+[0;32mI (82700) main: Turn OFF!
+[0m
+[0;32mI (82900) main: Turn ON!
+[0m
+[0;32mI (83100) main: Turn OFF!
+[0m
+[0;32mI (83300) main: Turn ON!
+[0m
+[0;32mI (83500) main: Turn OFF!
+[0m
+[0;32mI (83700) main: Turn ON!
+[0m
+[0;32mI (83900) main: Turn OFF!
+[0m
+[0;32mI (84100) main: Turn ON!
+[0m
+[0;32mI (84300) main: Turn OFF!
+[0m
+[0;32mI (84500) main: Turn ON!
+[0m
+[0;32mI (84700) main: Turn OFF!
+[0m
+[0;32mI (84900) main: Turn ON!
+[0m
+[0;32mI (85100) main: Turn OFF!
+[0m
+[0;32mI (85300) main: Turn ON!
+[0m
+[0;32mI (85500) main: Turn OFF!
+[0m
+[0;32mI (85700) main: Turn ON!
+[0m
+[0;32mI (85900) main: Turn OFF!
+[0m
+[0;32mI (86100) main: Turn ON!
+[0m
+[0;32mI (86300) main: Turn OFF!
+[0m
+[0;32mI (86500) main: Turn ON!
+[0m
+[0;32mI (86700) main: Turn OFF!
+[0m
+[0;32mI (86900) main: Turn ON!
+[0m
+[0;32mI (87100) main: Turn OFF!
+[0m
+[0;32mI (87300) main: Turn ON!
+[0m
+[0;32mI (87500) main: Turn OFF!
+[0m
+[0;32mI (87700) main: Turn ON!
+[0m
+[0;32mI (87900) main: Turn OFF!
+[0m
+[0;32mI (88100) main: Turn ON!
+[0m
+[0;32mI (88300) main: Turn OFF!
+[0m
+[0;32mI (88500) main: Turn ON!
+[0m
+[0;32mI (88700) main: Turn OFF!
+[0m
+[0;32mI (88900) main: Turn ON!
+[0m
+[0;32mI (89100) main: Turn OFF!
+[0m
+[0;32mI (89300) main: Turn ON!
+[0m
+[0;32mI (89500) main: Turn OFF!
+[0m
+[0;32mI (89700) main: Turn ON!
+[0m
+[0;32mI (89900) main: Turn OFF!
+[0m
+[0;32mI (90100) main: Turn ON!
+[0m
+[0;32mI (90300) main: Turn OFF!
+[0m
+[0;32mI (90500) main: Turn ON!
+[0m
+[0;32mI (90700) main: Turn OFF!
+[0m
+[0;32mI (90900) main: Turn ON!
+[0m
+[0;32mI (91100) main: Turn OFF!
+[0m
+[0;32mI (91300) main: Turn ON!
+[0m
+[0;32mI (91500) main: Turn OFF!
+[0m
+[0;32mI (91700) main: Turn ON!
+[0m
+[0;32mI (91900) main: Turn OFF!
+[0m
+[0;32mI (92100) main: Turn ON!
+[0m
+[0;32mI (92300) main: Turn OFF!
+[0m
+[0;32mI (92500) main: Turn ON!
+[0m
+[0;32mI (92700) main: Turn OFF!
+[0m
+[0;32mI (92900) main: Turn ON!
+[0m
+[0;32mI (93100) main: Turn OFF!
+[0m
+[0;32mI (93300) main: Turn ON!
+[0m
+[0;32mI (93500) main: Turn OFF!
+[0m
+[0;32mI (93700) main: Turn ON!
+[0m
+[0;32mI (93900) main: Turn OFF!
+[0m
+[0;32mI (94100) main: Turn ON!
+[0m
+[0;32mI (94300) main: Turn OFF!
+[0m
+[0;32mI (94500) main: Turn ON!
+[0m
+[0;32mI (94700) main: Turn OFF!
+[0m
+[0;32mI (94900) main: Turn ON!
+[0m
+[0;32mI (95100) main: Turn OFF!
+[0m
+[0;32mI (95300) main: Turn ON!
+[0m
+[0;32mI (95500) main: Turn OFF!
+[0m
+[0;32mI (95700) main: Turn ON!
+[0m
+[0;32mI (95900) main: Turn OFF!
+[0m
+[0;32mI (96100) main: Turn ON!
+[0m
+[0;32mI (96300) main: Turn OFF!
+[0m
+[0;32mI (96500) main: Turn ON!
+[0m
+[0;32mI (96700) main: Turn OFF!
+[0m
+[0;32mI (96900) main: Turn ON!
+[0m
+[0;32mI (97100) main: Turn OFF!
+[0m
+[0;32mI (97300) main: Turn ON!
+[0m
+[0;32mI (97500) main: Turn OFF!
+[0m
+[0;32mI (97700) main: Turn ON!
+[0m
+[0;32mI (97900) main: Turn OFF!
+[0m
+[0;32mI (98100) main: Turn ON!
+[0m
+[0;32mI (98300) main: Turn OFF!
+[0m
+[0;32mI (98500) main: Turn ON!
+[0m
+[0;32mI (98700) main: Turn OFF!
+[0m
+[0;32mI (98900) main: Turn ON!
+[0m
+[0;32mI (99100) main: Turn OFF!
+[0m
+[0;32mI (99300) main: Turn ON!
+[0m
+[0;32mI (99500) main: Turn OFF!
+[0m
+[0;32mI (99700) main: Turn ON!
+[0m
+[0;32mI (99900) main: Turn OFF!
+[0m
+[0;32mI (100100) main: Turn ON!
+[0m
+[0;32mI (100300) main: Turn OFF!
+[0m
+[0;32mI (100500) main: Turn ON!
+[0m
+[0;32mI (100700) main: Turn OFF!
+[0m
+[0;32mI (100900) main: Turn ON!
+[0m
+[0;32mI (101100) main: Turn OFF!
+[0m
+[0;32mI (101300) main: Turn ON!
+[0m
+[0;32mI (101500) main: Turn OFF!
+[0m
+[0;32mI (101700) main: Turn ON!
+[0m
+[0;32mI (101900) main: Turn OFF!
+[0m
+[0;32mI (102100) main: Turn ON!
+[0m
+[0;32mI (102300) main: Turn OFF!
+[0m
+[0;32mI (102500) main: Turn ON!
+[0m
+[0;32mI (102700) main: Turn OFF!
+[0m
+[0;32mI (102900) main: Turn ON!
+[0m
+[0;32mI (103100) main: Turn OFF!
+[0m
+[0;32mI (103300) main: Turn ON!
+[0m
+[0;32mI (103500) main: Turn OFF!
+[0m
+[0;32mI (103700) main: Turn ON!
+[0m
+[0;32mI (103900) main: Turn OFF!
+[0m
+[0;32mI (104100) main: Turn ON!
+[0m
+[0;32mI (104300) main: Turn OFF!
+[0m
+[0;32mI (104500) main: Turn ON!
+[0m
+[0;32mI (104700) main: Turn OFF!
+[0m
+[0;32mI (104900) main: Turn ON!
+[0m
+[0;32mI (105100) main: Turn OFF!
+[0m
+[0;32mI (105300) main: Turn ON!
+[0m
+[0;32mI (105500) main: Turn OFF!
+[0m
+[0;32mI (105700) main: Turn ON!
+[0m
+[0;32mI (105900) main: Turn OFF!
+[0m
+[0;32mI (106100) main: Turn ON!
+[0m
+[0;32mI (106300) main: Turn OFF!
+[0m
+[0;32mI (106500) main: Turn ON!
+[0m
+[0;32mI (106700) main: Turn OFF!
+[0m
+[0;32mI (106900) main: Turn ON!
+[0m
+[0;32mI (107100) main: Turn OFF!
+[0m
+[0;32mI (107300) main: Turn ON!
+[0m
+[0;32mI (107500) main: Turn OFF!
+[0m
+[0;32mI (107700) main: Turn ON!
+[0m
+[0;32mI (107900) main: Turn OFF!
+[0m
+[0;32mI (108100) main: Turn ON!
+[0m
+[0;32mI (108300) main: Turn OFF!
+[0m
+[0;32mI (108500) main: Turn ON!
+[0m
+[0;32mI (108700) main: Turn OFF!
+[0m
+[0;32mI (108900) main: Turn ON!
+[0m
+[0;32mI (109100) main: Turn OFF!
+[0m
+[0;32mI (109300) main: Turn ON!
+[0m
+[0;32mI (109500) main: Turn OFF!
+[0m
+[0;32mI (109700) main: Turn ON!
+[0m
+[0;32mI (109900) main: Turn OFF!
+[0m
+[0;32mI (110100) main: Turn ON!
+[0m
+[0;32mI (110300) main: Turn OFF!
+[0m
+[0;32mI (110500) main: Turn ON!
+[0m
+[0;32mI (110700) main: Turn OFF!
+[0m
+[0;32mI (110900) main: Turn ON!
+[0m
+[0;32mI (111100) main: Turn OFF!
+[0m
+[0;32mI (111300) main: Turn ON!
+[0m
+[0;32mI (111500) main: Turn OFF!
+[0m
+[0;32mI (111700) main: Turn ON!
+[0m
+[0;32mI (111900) main: Turn OFF!
+[0m
+[0;32mI (112100) main: Turn ON!
+[0m
+[0;32mI (112300) main: Turn OFF!
+[0m
+[0;32mI (112500) main: Turn ON!
+[0m
+[0;32mI (112700) main: Turn OFF!
+[0;32mI (1869750) main: Turn ON!
+[0m
+[0;32mI (1869950) main: Turn OFF!
+[0m
+[0;32mI (1870150) main: Turn ON!
+[0m
+[0;32mI (1870350) main: Turn OFF!
+[0m
+[0;32mI (1870550) main: Turn ON!
+[0m
+[0;32mI (1870750) main: Turn OFF!
+[0m
+[0;32mI (1870950) main: Turn ON!
+[0m
+[0;32mI (1871150) main: Turn OFF!
+[0m
+[0;32mI (1871350) main: Turn ON!
+[0m
+[0;32mI (1871550) main: Turn OFF!
+[0m
+[0;32mI (1871750) main: Turn ON!
+[0m
+[0;32mI (1871950) main: Turn OFF!
+[0m
+[0;32mI (1872150) main: Turn ON!
+[0m
+[0;32mI (1872350) main: Turn OFF!
+[0m
+[0;32mI (1872550) main: Turn ON!
+[0m
+[0;32mI (1872750) main: Turn OFF!
+[0m
+[0;32mI (1872950) main: Turn ON!
+[0m
+[0;32mI (1873150) main: Turn OFF!
+[0m
+[0;32mI (1873350) main: Turn ON!
+[0m
+[0;32mI (1873550) main: Turn OFF!
+[0m
+[0;32mI (1873750) main: Turn ON!
+[0m
+[0;32mI (1873950) main: Turn OFF!
+[0m
+[0;32mI (1874150) main: Turn ON!
+[0m
+[0;32mI (1874350) main: Turn OFF!
+[0m
+[0;32mI (1874550) main: Turn ON!
+[0m
+[0;32mI (1874750) main: Turn OFF!
+[0m
+[0;32mI (1874950) main: Turn ON!
+[0m
+[0;32mI (1875150) main: Turn OFF!
+[0m
+[0;32mI (1875350) main: Turn ON!
+[0m
+[0;32mI (1875550) main: Turn OFF!
+[0m
+[0;32mI (1875750) main: Turn ON!
+[0m
+[0;32mI (1875950) main: Turn OFF!
+[0m
+[0;32mI (1876150) main: Turn ON!
+[0m
+[0;32mI (1876350) main: Turn OFF!
+[0m
+[0;32mI (1876550) main: Turn ON!
+[0m
+[0;32mI (1876750) main: Turn OFF!
+[0m
+[0;32mI (1876950) main: Turn ON!
+[0m
+[0;32mI (1877150) main: Turn OFF!
+[0m
+[0;32mI (1877350) main: Turn ON!
+[0m
+[0;32mI (1877550) main: Turn OFF!
+[0m
+[0;32mI (1877750) main: Turn ON!
+[0m
+[0;32mI (1877950) main: Turn OFF!
+[0m
+[0;32mI (1878150) main: Turn ON!
+[0m
+[0;32mI (1878350) main: Turn OFF!
+[0m
+[0;32mI (1878550) main: Turn ON!
+[0m
+[0;32mI (1878750) main: Turn OFF!
+[0m
+[0;32mI (1878950) main: Turn ON!
+[0m
+[0;32mI (1879150) main: Turn OFF!
+[0m
+[0;32mI (1879350) main: Turn ON!
+[0m
+[0;32mI (1879550) main: Turn OFF!
+[0m
+[0;32mI (1879750) main: Turn ON!
+[0m
+[0;32mI (1879950) main: Turn OFF!
+[0m
+[0;32mI (1880150) main: Turn ON!
+[0m
+[0;32mI (1880350) main: Turn OFF!
+[0m
+[0;32mI (1880550) main: Turn ON!
+[0m
+[0;32mI (1880750) main: Turn OFF!
+[0m
+[0;32mI (1880950) main: Turn ON!
+[0m
+[0;32mI (1881150) main: Turn OFF!
+[0m
+[0;32mI (1881350) main: Turn ON!
+[0m
+[0;32mI (1881550) main: Turn OFF!
+[0m
+[0;32mI (1881750) main: Turn ON!
+[0m
+[0;32mI (1881950) main: Turn OFF!
+[0m
+[0;32mI (1882150) main: Turn ON!
+[0m
+[0;32mI (1882350) main: Turn OFF!
+[0m
+[0;32mI (1882550) main: Turn ON!
+[0m
+[0;32mI (1882750) main: Turn OFF!
+[0m
+[0;32mI (1882950) main: Turn ON!
+[0m
+[0;32mI (1883150) main: Turn OFF!
+[0m
+[0;32mI (1883350) main: Turn ON!
+[0m
+[0;32mI (1883550) main: Turn OFF!
+[0m
+[0;32mI (1883750) main: Turn ON!
+[0m
+[0;32mI (1883950) main: Turn OFF!
+[0m
+[0;32mI (1884150) main: Turn ON!
+[0m
+[0;32mI (1884350) main: Turn OFF!
+[0m
+[0;32mI (1884550) main: Turn ON!
+[0m
+[0;32mI (1884750) main: Turn OFF!
+[0m
+[0;32mI (1884950) main: Turn ON!
+[0m
+[0;32mI (1885150) main: Turn OFF!
+[0m
+[0;32mI (1885350) main: Turn ON!
+[0m
+[0;32mI (1885550) main: Turn OFF!
+[0m
+[0;32mI (1885750) main: Turn ON!
+[0m
+[0;32mI (1885950) main: Turn OFF!
+[0m
+[0;32mI (1886150) main: Turn ON!
+[0m
+[0;32mI (1886350) main: Turn OFF!
+[0m
+[0;32mI (1886550) main: Turn ON!
+[0m
+[0;32mI (1886750) main: Turn OFF!
+[0m
+[0;32mI (1886950) main: Turn ON!
+[0m
+[0;32mI (1887150) main: Turn OFF!
+[0m
+[0;32mI (1887350) main: Turn ON!
+[0m
+[0;32mI (1887550) main: Turn OFF!
+[0m
+[0;32mI (1887750) main: Turn ON!
+[0m
+[0;32mI (1887950) main: Turn OFF!
+[0m
+[0;32mI (1888150) main: Turn ON!
+[0m
+[0;32mI (1888350) main: Turn OFF!
+[0m
+[0;32mI (1888550) main: Turn ON!
+[0m
+[0;32mI (1888750) main: Turn OFF!
+[0m
+[0;32mI (1888950) main: Turn ON!
+[0m
+[0;32mI (1889150) main: Turn OFF!
+[0m
+[0;32mI (1889350) main: Turn ON!
+[0m
+[0;32mI (1889550) main: Turn OFF!
+[0m
+[0;32mI (1889750) main: Turn ON!
+[0m
+[0;32mI (1889950) main: Turn OFF!
+[0m
+[0;32mI (1890150) main: Turn ON!
+[0m
+[0;32mI (1890350) main: Turn OFF!
+[0m
+[0;32mI (1890550) main: Turn ON!
+[0m
+[0;32mI (1890750) main: Turn OFF!
+[0m
+[0;32mI (1890950) main: Turn ON!
+[0m
+[0;32mI (1891150) main: Turn OFF!
+[0m
+[0;32mI (1891350) main: Turn ON!
+[0m
+[0;32mI (1891550) main: Turn OFF!
+[0m
+[0;32mI (1891750) main: Turn ON!
+[0m
+[0;32mI (1891950) main: Turn OFF!
+[0m
+[0;32mI (1892150) main: Turn ON!
+[0m
+[0;32mI (1892350) main: Turn OFF!
+[0m
+[0;32mI (1892550) main: Turn ON!
+[0m
+[0;32mI (1892750) main: Turn OFF!
+[0m
+[0;32mI (1892950) main: Turn ON!
+[0m
+[0;32mI (1893150) main: Turn OFF!
+[0m
+[0;32mI (1893350) main: Turn ON!
+[0m
+[0;32mI (1893550) main: Turn OFF!
+[0m
+[0;32mI (1893750) main: Turn ON!
+[0m
+[0;32mI (1893950) main: Turn OFF!
+[0m
+[0;32mI (1894150) main: Turn ON!
+[0m
+[0;32mI (1894350) main: Turn OFF!
+[0m
+[0;32mI (1894550) main: Turn ON!
+[0m
+[0;32mI (1894750) main: Turn OFF!
+[0m
+[0;32mI (1894950) main: Turn ON!
+[0m
+[0;32mI (1895150) main: Turn OFF!
+[0m
+[0;32mI (1895350) main: Turn ON!
+[0m
+[0;32mI (1895550) main: Turn OFF!
+[0m
+[0;32mI (1895750) main: Turn ON!
+[0m
+[0;32mI (1895950) main: Turn OFF!
+[0m
+[0;32mI (1896150) main: Turn ON!
+[0m
+[0;32mI (1896350) main: Turn OFF!
+[0m
+[0;32mI (1896550) main: Turn ON!
+[0m
+[0;32mI (1896750) main: Turn OFF!
+[0m
+[0;32mI (1896950) main: Turn ON!
+[0m
+[0;32mI (1897150) main: Turn OFF!
+[0m
+[0;32mI (1897350) main: Turn ON!
+[0m
+[0;32mI (1897550) main: Turn OFF!
+[0m
+[0;32mI (1897750) main: Turn ON!
+[0m
+[0;32mI (1897950) main: Turn OFF!
+[0m
+[0;32mI (1898150) main: Turn ON!
+[0m
+[0;32mI (1898350) main: Turn OFF!
+[0m
+[0;32mI (1898550) main: Turn ON!
+[0m
+[0;32mI (1898750) main: Turn OFF!
+[0m
+[0;32mI (1898950) main: Turn ON!
+[0m
+[0;32mI (1899150) main: Turn OFF!
+[0m
+[0;32mI (1899350) main: Turn ON!
+[0m
+[0;32mI (1899550) main: Turn OFF!
+[0m
+[0;32mI (1899750) main: Turn ON!
+[0m
+[0;32mI (1899950) main: Turn OFF!
+[0m
+[0;32mI (1900150) main: Turn ON!
+[0m
+[0;32mI (1900350) main: Turn OFF!
+[0m
+[0;32mI (1900550) main: Turn ON!
+[0m
+[0;32mI (1900750) main: Turn OFF!
+[0m
+[0;32mI (1900950) main: Turn ON!
+[0m
+[0;32mI (1901150) main: Turn OFF!
+[0m
+[0;32mI (1901350) main: Turn ON!
+[0m
+[0;32mI (1901550) main: Turn OFF!
+[0m
+[0;32mI (1901750) main: Turn ON!
+[0m
+[0;32mI (1901950) main: Turn OFF!
+[0m
+[0;32mI (1902150) main: Turn ON!
+[0m
+[0;32mI (1902350) main: Turn OFF!
+[0m
+[0;32mI (1902550) main: Turn ON!
+[0m
+[0;32mI (1902750) main: Turn OFF!
+[0m
+[0;32mI (1902950) main: Turn ON!
+[0m
+[0;32mI (1903150) main: Turn OFF!
+[0m
+[0;32mI (1903350) main: Turn ON!
+[0m
+[0;32mI (1903550) main: Turn OFF!
+[0m
+[0;32mI (1903750) main: Turn ON!
+[0m
+[0;32mI (1903950) main: Turn OFF!
+[0m
+[0;32mI (1904150) main: Turn ON!
+[0m
+[0;32mI (1904350) main: Turn OFF!
+[0m
+[0;32mI (1904550) main: Turn ON!
+[0m
+[0;32mI (1904750) main: Turn OFF!
+[0m
+[0;32mI (1904950) main: Turn ON!
+[0m
+[0;32mI (1905150) main: Turn OFF!
+[0m
+[0;32mI (1905350) main: Turn ON!
+[0m
+[0;32mI (1905550) main: Turn OFF!
+[0m
+[0;32mI (1905750) main: Turn ON!
+[0m
+[0;32mI (1905950) main: Turn OFF!
+[0m
+[0;32mI (1906150) main: Turn ON!
+[0m
+[0;32mI (1906350) main: Turn OFF!
+[0m
+[0;32mI (1906550) main: Turn ON!
+[0m
+[0;32mI (1906750) main: Turn OFF!
+[0m
+[0;32mI (1906950) main: Turn ON!
+[0m
+[0;32mI (1907150) main: Turn OFF!
+[0m
+[0;32mI (1907350) main: Turn ON!
+[0m
+[0;32mI (1907550) main: Turn OFF!
+[0m
+[0;32mI (1907750) main: Turn ON!
+[0m
+[0;32mI (1907950) main: Turn OFF!
+[0m
+[0;32mI (1908150) main: Turn ON!
+[0m
+[0;32mI (1908350) main: Turn OFF!
+[0m
+[0;32mI (1908550) main: Turn ON!
+[0m
+[0;32mI (1908750) main: Turn OFF!
+[0m
+[0;32mI (1908950) main: Turn ON!
+[0m
+[0;32mI (1909150) main: Turn OFF!
+[0m
+[0;32mI (1909350) main: Turn ON!
+[0m
+[0;32mI (1909550) main: Turn OFF!
+[0m
+[0;32mI (1909750) main: Turn ON!
+[0m
+[0;32mI (1909950) main: Turn OFF!
+[0m
+[0;32mI (1910150) main: Turn ON!
+[0m
+[0;32mI (1910350) main: Turn OFF!
+[0m
+[0;32mI (1910550) main: Turn ON!
+[0m
+[0;32mI (1910750) main: Turn OFF!
+[0m
+[0;32mI (1910950) main: Turn ON!
+[0m
+[0;32mI (1911150) main: Turn OFF!
+[0m
+[0;32mI (1911350) main: Turn ON!
+[0m
+[0;32mI (1911550) main: Turn OFF!
+[0m
+[0;32mI (1911750) main: Turn ON!
+[0m
+[0;32mI (1911950) main: Turn OFF!
+[0m
+[0;32mI (1912150) main: Turn ON!
+[0m
+[0;32mI (1912350) main: Turn OFF!
+[0m
+[0;32mI (1912550) main: Turn ON!
+[0m
+[0;32mI (1912750) main: Turn OFF!
+[0m
+[0;32mI (1912950) main: Turn ON!
+[0m
+[0;32mI (1913150) main: Turn OFF!
+[0m
+[0;32mI (1913350) main: Turn ON!
+[0m
+[0;32mI (1913550) main: Turn OFF!
+[0m
+[0;32mI (1913750) main: Turn ON!
+[0m
+[0;32mI (1913950) main: Turn OFF!
+[0m
+[0;32mI (1914150) main: Turn ON!
+[0m
+[0;32mI (1914350) main: Turn OFF!
+[0m
+[0;32mI (1914550) main: Turn ON!
+[0m
+[0;32mI (1914750) main: Turn OFF!
+[0m
+[0;32mI (1914950) main: Turn ON!
+[0m
+[0;32mI (1915150) main: Turn OFF!
+[0m
+[0;32mI (1915350) main: Turn ON!
+[0m
+[0;32mI (1915550) main: Turn OFF!
+[0m
+[0;32mI (1915750) main: Turn ON!
+[0m
+[0;32mI (1915950) main: Turn OFF!
+[0m
+[0;32mI (1916150) main: Turn ON!
+[0m
+[0;32mI (1916350) main: Turn OFF!
+[0m
+[0;32mI (1916550) main: Turn ON!
+[0m
+[0;32mI (1916750) main: Turn OFF!
+[0m
+[0;32mI (1916950) main: Turn ON!
+[0m
+[0;32mI (1917150) main: Turn OFF!
+[0m
+[0;32mI (1917350) main: Turn ON!
+[0m
+[0;32mI (1917550) main: Turn OFF!
+[0m
+[0;32mI (1917750) main: Turn ON!
+[0m
+[0;32mI (1917950) main: Turn OFF!
+[0m
+[0;32mI (1918150) main: Turn ON!
+[0m
+[0;32mI (1918350) main: Turn OFF!
+[0m
+[0;32mI (1918550) main: Turn ON!
+[0m
+[0;32mI (1918750) main: Turn OFF!
+[0m
+[0;32mI (1918950) main: Turn ON!
+[0m
+[0;32mI (1919150) main: Turn OFF!
+[0m
+[0;32mI (1919350) main: Turn ON!
+[0m
+[0;32mI (1919550) main: Turn OFF!
+[0m
+[0;32mI (1919750) main: Turn ON!
+[0m
+[0;32mI (1919950) main: Turn OFF!
+[0m
+[0;32mI (1920150) main: Turn ON!
+[0m
+[0;32mI (1920350) main: Turn OFF!
+[0m
+[0;32mI (1920550) main: Turn ON!
+[0m
+[0;32mI (1920750) main: Turn OFF!
+[0m
+[0;32mI (1920950) main: Turn ON!
+[0m
+[0;32mI (1921150) main: Turn OFF!
+[0m
+[0;32mI (1921350) main: Turn ON!
+[0m
+[0;32mI (1921550) main: Turn OFF!
+[0m
+[0;32mI (1921750) main: Turn ON!
+[0m
+[0;32mI (1921950) main: Turn OFF!
+[0m
+[0;32mI (1922150) main: Turn ON!
+[0m
+[0;32mI (1922350) main: Turn OFF!
+[0m
+[0;32mI (1922550) main: Turn ON!
+[0m
+[0;32mI (1922750) main: Turn OFF!
+[0m
+[0;32mI (1922950) main: Turn ON!
+[0m
+[0;32mI (1923150) main: Turn OFF!
+[0m
+[0;32mI (1923350) main: Turn ON!
+[0m
+[0;32mI (1923550) main: Turn OFF!
+[0m
+[0;32mI (1923750) main: Turn ON!
+[0m
+[0;32mI (1923950) main: Turn OFF!
+[0m
+[0;32mI (1924150) main: Turn ON!
+[0m
+[0;32mI (1924350) main: Turn OFF!
+[0m
+[0;32mI (1924550) main: Turn ON!
+[0m
+[0;32mI (1924750) main: Turn OFF!
+[0m
+[0;32mI (1924950) main: Turn ON!
+[0m
+[0;32mI (1925150) main: Turn OFF!
+[0m
+[0;32mI (1925350) main: Turn ON!
+[0m
+[0;32mI (1925550) main: Turn OFF!
+[0m
+[0;32mI (1925750) main: Turn ON!
+[0m
+[0;32mI (1925950) main: Turn OFF!
+[0m
+[0;32mI (1926150) main: Turn ON!
+[0m
+[0;32mI (1926350) main: Turn OFF!
+[0m
+[0;32mI (1926550) main: Turn ON!
+[0m
+[0;32mI (1926750) main: Turn OFF!
+[0m
+[0;32mI (1926950) main: Turn ON!
+[0m
+[0;32mI (1927150) main: Turn OFF!
+[0m
+[0;32mI (1927350) main: Turn ON!
+[0m
+[0;32mI (1927550) main: Turn OFF!
+[0m
+[0;32mI (1927750) main: Turn ON!
+[0m
+[0;32mI (1927950) main: Turn OFF!
+[0m
+[0;32mI (1928150) main: Turn ON!
+[0m
+[0;32mI (1928350) main: Turn OFF!
+[0m
+[0;32mI (1928550) main: Turn ON!
+[0m
+[0;32mI (1928750) main: Turn OFF!
+[0m
+[0;32mI (1928950) main: Turn ON!
+[0m
+[0;32mI (1929150) main: Turn OFF!
+[0m
+[0;32mI (1929350) main: Turn ON!
+[0m
+[0;32mI (1929550) main: Turn OFF!
+[0m
+[0;32mI (1929750) main: Turn ON!
+[0m
+[0;32mI (1929950) main: Turn OFF!
+[0m
+[0;32mI (1930150) main: Turn ON!
+[0m
+[0;32mI (1930350) main: Turn OFF!
+[0m
+[0;32mI (1930550) main: Turn ON!
+[0m
+[0;32mI (1930750) main: Turn OFF!
+[0m
+[0;32mI (1930950) main: Turn ON!
+[0m
+[0;32mI (1931150) main: Turn OFF!
+[0m
+[0;32mI (1931350) main: Turn ON!
+[0m
+[0;32mI (1931550) main: Turn OFF!
+[0m
+[0;32mI (1931750) main: Turn ON!
+[0m
+[0;32mI (1931950) main: Turn OFF!
+[0m
+[0;32mI (1932150) main: Turn ON!
+[0m
+[0;32mI (1932350) main: Turn OFF!
+[0m
+[0;32mI (1932550) main: Turn ON!
+[0m
+[0;32mI (1932750) main: Turn OFF!
+[0m
+[0;32mI (1932950) main: Turn ON!
+[0m
+[0;32mI (1933150) main: Turn OFF!
+[0m
+[0;32mI (1933350) main: Turn ON!
+[0m
+[0;32mI (1933550) main: Turn OFF!
+[0m
+[0;32mI (1933750) main: Turn ON!
+[0m
+[0;32mI (1933950) main: Turn OFF!
+[0m
+[0;32mI (1934150) main: Turn ON!
+[0m
+[0;32mI (1934350) main: Turn OFF!
+[0m
+[0;32mI (1934550) main: Turn ON!
+[0m
+[0;32mI (1934750) main: Turn OFF!
+[0m
+[0;32mI (1934950) main: Turn ON!
+[0m
+[0;32mI (1935150) main: Turn OFF!
+[0m
+[0;32mI (1935350) main: Turn ON!
+[0m
+[0;32mI (1935550) main: Turn OFF!
+[0m
+[0;32mI (1935750) main: Turn ON!
+[0m
+[0;32mI (1935950) main: Turn OFF!
+[0m
+[0;32mI (1936150) main: Turn ON!
+[0m
+[0;32mI (1936350) main: Turn OFF!
+[0m
+[0;32mI (1936550) main: Turn ON!
+[0m
+[0;32mI (1936750) main: Turn OFF!
+[0m
+[0;32mI (1936950) main: Turn ON!
+[0m
+[0;32mI (1937150) main: Turn OFF!
+[0m
+[0;32mI (1937350) main: Turn ON!
+[0m
+[0;32mI (1937550) main: Turn OFF!
+[0m
+[0;32mI (1937750) main: Turn ON!
+[0m
+[0;32mI (1937950) main: Turn OFF!
+[0m
+[0;32mI (1938150) main: Turn ON!
+[0m
+[0;32mI (1938350) main: Turn OFF!
+[0m
+[0;32mI (1938550) main: Turn ON!
+[0m
+[0;32mI (1938750) main: Turn OFF!
+[0m
+[0;32mI (1938950) main: Turn ON!
+[0m
+[0;32mI (1939150) main: Turn OFF!
+[0m
+[0;32mI (1939350) main: Turn ON!
+[0m
+[0;32mI (1939550) main: Turn OFF!
+[0m
+[0;32mI (1939750) main: Turn ON!
+[0m
+[0;32mI (1939950) main: Turn OFF!
+[0m
+[0;32mI (1940150) main: Turn ON!
+[0m
+[0;32mI (1940350) main: Turn OFF!
+[0m
+[0;32mI (1940550) main: Turn ON!
+[0m
+[0;32mI (1940750) main: Turn OFF!
+[0m
+[0;32mI (1940950) main: Turn ON!
+[0m
+[0;32mI (1941150) main: Turn OFF!
+[0m
+[0;32mI (1941350) main: Turn ON!
+[0m
+[0;32mI (1941550) main: Turn OFF!
+[0m
+[0;32mI (1941750) main: Turn ON!
+[0m
+[0;32mI (1941950) main: Turn OFF!
+[0m
+[0;32mI (1942150) main: Turn ON!
+[0m
+[0;32mI (1942350) main: Turn OFF!
+[0m
+[0;32mI (1942550) main: Turn ON!
+[0m
+[0;32mI (1942750) main: Turn OFF!
+[0m
+[0;32mI (1942950) main: Turn ON!
+[0m
+[0;32mI (1943150) main: Turn OFF!
+[0m
+[0;32mI (1943350) main: Turn ON!
+[0m
+[0;32mI (1943550) main: Turn OFF!
+[0m
+[0;32mI (1943750) main: Turn ON!
+[0m
+[0;32mI (1943950) main: Turn OFF!
+[0m
+[0;32mI (1944150) main: Turn ON!
+[0m
+[0;32mI (1944350) main: Turn OFF!
+[0m
+[0;32mI (1944550) main: Turn ON!
+[0m
+[0;32mI (1944750) main: Turn OFF!
+[0m
+[0;32mI (1944950) main: Turn ON!
+[0m
+[0;32mI (1945150) main: Turn OFF!
+[0m
+[0;32mI (1945350) main: Turn ON!
+[0m
+[0;32mI (1945550) main: Turn OFF!
+[0m
+[0;32mI (1945750) main: Turn ON!
+[0m
+[0;32mI (1945950) main: Turn OFF!
+[0m
+[0;32mI (1946150) main: Turn ON!
+[0m
+[0;32mI (1946350) main: Turn OFF!
+[0m
+[0;32mI (1946550) main: Turn ON!
+[0m
+[0;32mI (1946750) main: Turn OFF!
+[0m
+[0;32mI (1946950) main: Turn ON!
+[0m
+[0;32mI (1947150) main: Turn OFF!
+[0m
+[0;32mI (1947350) main: Turn ON!
+[0m
+[0;32mI (1947550) main: Turn OFF!
+[0m
+[0;32mI (1947750) main: Turn ON!
+[0m
+[0;32mI (1947950) main: Turn OFF!
+[0m
+[0;32mI (1948150) main: Turn ON!
+[0m
+[0;32mI (1948350) main: Turn OFF!
+[0m
+[0;32mI (1948550) main: Turn ON!
+[0m
+[0;32mI (1948750) main: Turn OFF!
+[0m
+[0;32mI (1948950) main: Turn ON!
+[0m
+[0;32mI (1949150) main: Turn OFF!
+[0m
+[0;32mI (1949350) main: Turn ON!
+[0m
+[0;32mI (1949550) main: Turn OFF!
+[0m
+[0;32mI (1949750) main: Turn ON!
+[0m
+[0;32mI (1949950) main: Turn OFF!
+[0m
+[0;32mI (1950150) main: Turn ON!
+[0m
+[0;32mI (1950350) main: Turn OFF!
+[0m
+[0;32mI (1950550) main: Turn ON!
+[0m
+[0;32mI (1950750) main: Turn OFF!
+[0m
+[0;32mI (1950950) main: Turn ON!
+[0m
+[0;32mI (1951150) main: Turn OFF!
+[0m
+[0;32mI (1951350) main: Turn ON!
+[0m
+[0;32mI (1951550) main: Turn OFF!
+[0m
+[0;32mI (1951750) main: Turn ON!
+[0m
+[0;32mI (1951950) main: Turn OFF!
+[0m
+[0;32mI (1952150) main: Turn ON!
+[0m
+[0;32mI (1952350) main: Turn OFF!
+[0m
+[0;32mI (1952550) main: Turn ON!
+[0m
+[0;32mI (1952750) main: Turn OFF!
+[0m
+[0;32mI (1952950) main: Turn ON!
+[0m
+[0;32mI (1953150) main: Turn OFF!
+[0m
+[0;32mI (1953350) main: Turn ON!
+[0m
+[0;32mI (1953550) main: Turn OFF!
+[0m
+[0;32mI (1953750) main: Turn ON!
+[0m
+[0;32mI (1953950) main: Turn OFF!
+[0m
+[0;32mI (1954150) main: Turn ON!
+[0m
+[0;32mI (1954350) main: Turn OFF!
+[0m
+[0;32mI (1954550) main: Turn ON!
+[0m
+[0;32mI (1954750) main: Turn OFF!
+[0m
+[0;32mI (1954950) main: Turn ON!
+[0m
+[0;32mI (1955150) main: Turn OFF!
+[0m
+[0;32mI (1955350) main: Turn ON!
+[0m
+[0;32mI (1955550) main: Turn OFF!
+[0m
+[0;32mI (1955750) main: Turn ON!
+[0m
+[0;32mI (1955950) main: Turn OFF!
+[0m
+[0;32mI (1956150) main: Turn ON!
+[0m
+[0;32mI (1956350) main: Turn OFF!
+[0m
+[0;32mI (1956550) main: Turn ON!
+[0m
+[0;32mI (1956750) main: Turn OFF!
+[0m
+[0;32mI (1956950) main: Turn ON!
+[0m
+[0;32mI (1957150) main: Turn OFF!
+[0m
+[0;32mI (1957350) main: Turn ON!
+[0m
+[0;32mI (1957550) main: Turn OFF!
+[0m
+[0;32mI (1957750) main: Turn ON!
+[0m
+[0;32mI (1957950) main: Turn OFF!
+[0m
+[0;32mI (1958150) main: Turn ON!
+[0m
+[0;32mI (1958350) main: Turn OFF!
+[0m
+[0;32mI (1958550) main: Turn ON!
+[0m
+[0;32mI (1958750) main: Turn OFF!
+[0m
+[0;32mI (1958950) main: Turn ON!
+[0m
+[0;32mI (1959150) main: Turn OFF!
+[0m
+[0;32mI (1959350) main: Turn ON!
+[0m
+[0;32mI (1959550) main: Turn OFF!
+[0m
+[0;32mI (1959750) main: Turn ON!
+[0m
+[0;32mI (1959950) main: Turn OFF!
+[0m
+[0;32mI (1960150) main: Turn ON!
+[0m
+[0;32mI (1960350) main: Turn OFF!
+[0m
+[0;32mI (1960550) main: Turn ON!
+[0m
+[0;32mI (1960750) main: Turn OFF!
+[0m
+[0;32mI (1960950) main: Turn ON!
+[0m
+[0;32mI (1961150) main: Turn OFF!
+[0m
+[0;32mI (1961350) main: Turn ON!
+[0m
+[0;32mI (1961550) main: Turn OFF!
+[0m
+[0;32mI (1961750) main: Turn ON!
+[0m
+[0;32mI (1961950) main: Turn OFF!
+[0m
+[0;32mI (1962150) main: Turn ON!
+[0m
+[0;32mI (1962350) main: Turn OFF!
+[0m
+[0;32mI (1962550) main: Turn ON!
+[0m
+[0;32mI (1962750) main: Turn OFF!
+[0m
+[0;32mI (1962950) main: Turn ON!
+[0m
+[0;32mI (1963150) main: Turn OFF!
+[0m
+[0;32mI (1963350) main: Turn ON!
+[0m
+[0;32mI (1963550) main: Turn OFF!
+[0m
+[0;32mI (1963750) main: Turn ON!
+[0m
+[0;32mI (1963950) main: Turn OFF!
+[0m
+[0;32mI (1964150) main: Turn ON!
+[0m
+[0;32mI (1964350) main: Turn OFF!
+[0m
+[0;32mI (1964550) main: Turn ON!
+[0m
+[0;32mI (1964750) main: Turn OFF!
+[0m
+[0;32mI (1964950) main: Turn ON!
+[0m
+[0;32mI (1965150) main: Turn OFF!
+[0m
+[0;32mI (1965350) main: Turn ON!
+[0m
+[0;32mI (1965550) main: Turn OFF!
+[0m
+[0;32mI (1965750) main: Turn ON!
+[0m
+[0;32mI (1965950) main: Turn OFF!
+[0m
+[0;32mI (1966150) main: Turn ON!
+[0m
+[0;32mI (1966350) main: Turn OFF!
+[0m
+[0;32mI (1966550) main: Turn ON!
+[0m
+[0;32mI (1966750) main: Turn OFF!
+[0m
+[0;32mI (1966950) main: Turn ON!
+[0m
+[0;32mI (1967150) main: Turn OFF!
+[0m
+[0;32mI (1967350) main: Turn ON!
+[0m
+[0;32mI (1967550) main: Turn OFF!
+[0m
+[0;32mI (1967750) main: Turn ON!
+[0m
+[0;32mI (1967950) main: Turn OFF!
+[0m
+[0;32mI (1968150) main: Turn ON!
+[0m
+[0;32mI (1968350) main: Turn OFF!
+[0m
+[0;32mI (1968550) main: Turn ON!
+[0m
+[0;32mI (1968750) main: Turn OFF!
+[0m
+[0;32mI (1968950) main: Turn ON!
+[0m
+[0;32mI (1969150) main: Turn OFF!
+[0m
+[0;32mI (1969350) main: Turn ON!
+[0m
+[0;32mI (1969550) main: Turn OFF!
+[0m
+[0;32mI (1969750) main: Turn ON!
+[0m
+[0;32mI (1969950) main: Turn OFF!
+[0m
+[0;32mI (1970150) main: Turn ON!
+[0m
+[0;32mI (1970350) main: Turn OFF!
+[0m
+[0;32mI (1970550) main: Turn ON!
+[0m
+[0;32mI (1970750) main: Turn OFF!
+[0m
+[0;32mI (1970950) main: Turn ON!
+[0m
+[0;32mI (1971150) main: Turn OFF!
+[0m
+[0;32mI (1971350) main: Turn ON!
+[0m
+[0;32mI (1971550) main: Turn OFF!
+[0m
+[0;32mI (1971750) main: Turn ON!
+[0m
+[0;32mI (1971950) main: Turn OFF!
+[0m
+[0;32mI (1972150) main: Turn ON!
+[0m
+[0;32mI (1972350) main: Turn OFF!
+[0m
+[0;32mI (1972550) main: Turn ON!
+[0m
+[0;32mI (1972750) main: Turn OFF!
+[0m
+[0;32mI (1972950) main: Turn ON!
+[0m
+[0;32mI (1973150) main: Turn OFF!
+[0m
+[0;32mI (1973350) main: Turn ON!
+[0m
+[0;32mI (1973550) main: Turn OFF!
+[0m
+[0;32mI (1973750) main: Turn ON!
+[0m
+[0;32mI (1973950) main: Turn OFF!
+[0m
+[0;32mI (1974150) main: Turn ON!
+[0m
+[0;32mI (1974350) main: Turn OFF!
+[0m
+[0;32mI (1974550) main: Turn ON!
+[0m
+[0;32mI (1974750) main: Turn OFF!
+[0m
+[0;32mI (1974950) main: Turn ON!
+[0m
+[0;32mI (1975150) main: Turn OFF!
+[0m
+[0;32mI (1975350) main: Turn ON!
+[0m
+[0;32mI (1975550) main: Turn OFF!
+[0m
+[0;32mI (1975750) main: Turn ON!
+[0m
+[0;32mI (1975950) main: Turn OFF!
+[0m
+[0;32mI (1976150) main: Turn ON!
+[0m
+[0;32mI (1976350) main: Turn OFF!
+[0m
+[0;32mI (1976550) main: Turn ON!
+[0m
+[0;32mI (1976750) main: Turn OFF!
+[0m
+[0;32mI (1976950) main: Turn ON!
+[0m
+[0;32mI (1977150) main: Turn OFF!
+[0m
+[0;32mI (1977350) main: Turn ON!
+[0m
+[0;32mI (1977550) main: Turn OFF!
+[0m
+[0;32mI (1977750) main: Turn ON!
+[0m
+[0;32mI (1977950) main: Turn OFF!
+[0m
+[0;32mI (1978150) main: Turn ON!
+[0m
+[0;32mI (1978350) main: Turn OFF!
+[0m
+[0;32mI (1978550) main: Turn ON!
+[0m
+[0;32mI (1978750) main: Turn OFF!
+[0m
+[0;32mI (1978950) main: Turn ON!
+[0m
+[0;32mI (1979150) main: Turn OFF!
+[0m
+[0;32mI (1979350) main: Turn ON!
+[0m
+[0;32mI (1979550) main: Turn OFF!
+[0m
+[0;32mI (1979750) main: Turn ON!
+[0m
+[0;32mI (1979950) main: Turn OFF!
+[0m
+[0;32mI (1980150) main: Turn ON!
+[0m
+[0;32mI (1980350) main: Turn OFF!
+[0m
+[0;32mI (1980550) main: Turn ON!
+[0m
+[0;32mI (1980750) main: Turn OFF!
+[0m
+[0;32mI (1980950) main: Turn ON!
+[0m
+[0;32mI (1981150) main: Turn OFF!
+[0m
+[0;32mI (1981350) main: Turn ON!
+[0m
+[0;32mI (1981550) main: Turn OFF!
+[0m
+[0;32mI (1981750) main: Turn ON!
+[0m
+[0;32mI (1981950) main: Turn OFF!
+[0m
+[0;32mI (1982150) main: Turn ON!
+[0m
+[0;32mI (1982350) main: Turn OFF!
+[0m
+[0;32mI (1982550) main: Turn ON!
+[0m
+[0;32mI (1982750) main: Turn OFF!
+[0m
+[0;32mI (1982950) main: Turn ON!
+[0m
+[0;32mI (1983150) main: Turn OFF!
+[0m
+[0;32mI (1983350) main: Turn ON!
+[0m
+[0;32mI (1983550) main: Turn OFF!
+[0m
+[0;32mI (1983750) main: Turn ON!
+[0m
+[0;32mI (1983950) main: Turn OFF!
+[0m
+[0;32mI (1984150) main: Turn ON!
+[0m
+[0;32mI (1984350) main: Turn OFF!
+[0m
+[0;32mI (1984550) main: Turn ON!
+[0m
+[0;32mI (1984750) main: Turn OFF!
+[0m
+[0;32mI (1984950) main: Turn ON!
+[0m
+[0;32mI (1985150) main: Turn OFF!
+[0m
+[0;32mI (1985350) main: Turn ON!
+[0m
+[0;32mI (1985550) main: Turn OFF!
+[0m
+[0;32mI (1985750) main: Turn ON!
+[0m
+[0;32mI (1985950) main: Turn OFF!
+[0m
+[0;32mI (1986150) main: Turn ON!
+[0m
+[0;32mI (1986350) main: Turn OFF!
+[0m
+[0;32mI (1986550) main: Turn ON!
+[0m
+[0;32mI (1986750) main: Turn OFF!
+[0m
+[0;32mI (1986950) main: Turn ON!
+[0m
+[0;32mI (1987150) main: Turn OFF!
+[0m
+[0;32mI (1987350) main: Turn ON!
+[0m
+[0;32mI (1987550) main: Turn OFF!
+[0m
+[0;32mI (1987750) main: Turn ON!
+[0m
+[0;32mI (1987950) main: Turn OFF!
+[0m
+[0;32mI (1988150) main: Turn ON!
+[0m
+[0;32mI (1988350) main: Turn OFF!
+[0m
+[0;32mI (1988550) main: Turn ON!
+[0m
+[0;32mI (1988750) main: Turn OFF!
+[0m
+[0;32mI (1988950) main: Turn ON!
+[0m
+[0;32mI (1989150) main: Turn OFF!
+[0m
+[0;32mI (1989350) main: Turn ON!
+[0m
+[0;32mI (1989550) main: Turn OFF!
+[0m
+[0;32mI (1989750) main: Turn ON!
+[0m
+[0;32mI (1989950) main: Turn OFF!
+[0m
+[0;32mI (1990150) main: Turn ON!
+[0m
+[0;32mI (1990350) main: Turn OFF!
+[0m
+[0;32mI (1990550) main: Turn ON!
+[0m
+[0;32mI (1990750) main: Turn OFF!
+[0m
+[0;32mI (1990950) main: Turn ON!
+[0m
+[0;32mI (1991150) main: Turn OFF!
+[0m
+[0;32mI (1991350) main: Turn ON!
+[0m
+[0;32mI (1991550) main: Turn OFF!
+[0m
+[0;32mI (1991750) main: Turn ON!
+[0m
+[0;32mI (1991950) main: Turn OFF!
+[0m
+[0;32mI (1992150) main: Turn ON!
+[0m
+[0;32mI (1992350) main: Turn OFF!
+[0m
+[0;32mI (1992550) main: Turn ON!
+[0m
+[0;32mI (1992750) main: Turn OFF!
+[0m
+[0;32mI (1992950) main: Turn ON!
+[0m
+[0;32mI (1993150) main: Turn OFF!
+[0m
+[0;32mI (1993350) main: Turn ON!
+[0m
+[0;32mI (1993550) main: Turn OFF!
+[0m
+[0;32mI (1993750) main: Turn ON!
+[0m
+[0;32mI (1993950) main: Turn OFF!
+[0m
+[0;32mI (1994150) main: Turn ON!
+[0m
+[0;32mI (1994350) main: Turn OFF!
+[0m
+[0;32mI (1994550) main: Turn ON!
+[0m
+[0;32mI (1994750) main: Turn OFF!
+[0m
+[0;32mI (1994950) main: Turn ON!
+[0m
+[0;32mI (1995150) main: Turn OFF!
+[0m
+[0;32mI (1995350) main: Turn ON!
+[0m
+[0;32mI (1995550) main: Turn OFF!
+[0m
+[0;32mI (1995750) main: Turn ON!
+[0m
+[0;32mI (1995950) main: Turn OFF!
+[0m
+[0;32mI (1996150) main: Turn ON!
+[0m
+[0;32mI (1996350) main: Turn OFF!
+[0m
+[0;32mI (1996550) main: Turn ON!
+[0m
+[0;32mI (1996750) main: Turn OFF!
+[0m
+[0;32mI (1996950) main: Turn ON!
+[0m
+[0;32mI (1997150) main: Turn OFF!
+[0m
+[0;32mI (1997350) main: Turn ON!
+[0m
+[0;32mI (1997550) main: Turn OFF!
+[0m
+[0;32mI (1997750) main: Turn ON!
+[0m
+[0;32mI (1997950) main: Turn OFF!
+[0m
+[0;32mI (1998150) main: Turn ON!
+[0m
+[0;32mI (1998350) main: Turn OFF!
+[0m
+[0;32mI (1998550) main: Turn ON!
+[0m
+[0;32mI (1998750) main: Turn OFF!
+[0m
+[0;32mI (1998950) main: Turn ON!
+[0m
+[0;32mI (1999150) main: Turn OFF!
+[0m
+[0;32mI (1999350) main: Turn ON!
+[0m

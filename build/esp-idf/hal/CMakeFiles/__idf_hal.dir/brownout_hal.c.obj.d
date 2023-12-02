@@ -1,0 +1,22 @@
+esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj: \
+ /home/prlx/test/esp-idf/components/hal/brownout_hal.c \
+ /home/prlx/test/esp-idf/components/hal/esp32c3/include/hal/brownout_ll.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stdbool.h \
+ /home/prlx/test/esp-idf/components/soc/esp32c3/include/soc/rtc_cntl_struct.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stdint.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/riscv32-esp-elf/sys-include/stdint.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/riscv32-esp-elf/sys-include/machine/_default_types.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/riscv32-esp-elf/sys-include/sys/features.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/riscv32-esp-elf/sys-include/_newlib_version.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/riscv32-esp-elf/sys-include/sys/_intsup.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/riscv32-esp-elf/sys-include/sys/_stdint.h \
+ /home/prlx/test/esp-idf/components/hal/platform_port/include/hal/regi2c_ctrl.h \
+ /home/prlx/test/esp-idf/components/esp_hw_support/include/esp_private/regi2c_ctrl.h \
+ /home/prlx/test/esp-idf/projects/blink-test/build/config/sdkconfig.h \
+ /home/prlx/test/esp-idf/components/esp_rom/include/esp_rom_regi2c.h \
+ /home/prlx/test/esp-idf/components/soc/esp32c3/include/soc/regi2c_defs.h \
+ /home/prlx/test/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /home/prlx/test/esp-idf/components/soc/esp32c3/include/soc/regi2c_brownout.h \
+ /home/prlx/test/esp-idf/components/hal/include/hal/brownout_hal.h \
+ /home/prlx/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/13.2.0/include/stddef.h \
+ /home/prlx/test/esp-idf/components/soc/esp32c3/include/soc/soc_caps.h

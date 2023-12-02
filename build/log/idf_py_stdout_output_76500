@@ -1,0 +1,406 @@
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xd (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4004c976
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1738
+load:0x403cc710,len:0xb9c
+load:0x403ce710,len:0x2e34
+entry 0x403cc71a
+[0;32mI (24) boot: ESP-IDF v5.3-dev-696-g76923a7a7f 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Dec  2 2023 12:17:43[0m
+[0;32mI (25) boot: chip revision: v0.4[0m
+[0;32mI (29) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (38) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=09be8h ( 39912) map[0m
+[0;32mI (101) esp_image: segment 1: paddr=00019c10 vaddr=3fc8ae00 size=012ach (  4780) load[0m
+[0;32mI (104) esp_image: segment 2: paddr=0001aec4 vaddr=40380000 size=05154h ( 20820) load[0m
+[0;32mI (115) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=16cfch ( 93436) map[0m
+[0;32mI (135) esp_image: segment 4: paddr=00036d24 vaddr=40385154 size=05bd4h ( 23508) load[0m
+[0;32mI (143) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (143) boot: Disabling RNG early entropy source...[0m
+[0;32mI (155) cpu_start: Unicore app[0m
+[0;32mI (164) cpu_start: Pro cpu start user code[0m
+[0;32mI (164) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (164) cpu_start: Application information:[0m
+[0;32mI (167) cpu_start: Project name:     blink-test[0m
+[0;32mI (172) cpu_start: App version:      v5.3-dev-696-g76923a7a7f[0m
+[0;32mI (178) cpu_start: Compile time:     Dec  2 2023 12:17:53[0m
+[0;32mI (184) cpu_start: ELF file SHA256:  471a3843d...[0m
+[0;32mI (190) cpu_start: ESP-IDF:          v5.3-dev-696-g76923a7a7f[0m
+[0;32mI (196) cpu_start: Min chip rev:     v0.3[0m
+[0;32mI (201) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (206) cpu_start: Chip rev:         v0.4[0m
+[0;32mI (211) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (218) heap_init: At 3FC8D040 len 00032FC0 (203 KiB): RAM[0m
+[0;32mI (224) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (231) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (238) heap_init: At 50000010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (245) spi_flash: detected chip: generic[0m
+[0;32mI (249) spi_flash: flash io: dio[0m
+[0;33mW (253) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (266) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (273) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (280) main_task: Started on CPU0[0m
+[0;32mI (280) main_task: Calling app_main()[0m
+[0;32mI (280) main: Hello esp32!
+[0m
+[0;32mI (1290) main: Hello esp32!
+[0m
+[0;32mI (2290) main: Hello esp32!
+[0m
+[0;32mI (3290) main: Hello esp32!
+[0m
+[0;32mI (4290) main: Hello esp32!
+[0m
+[0;32mI (5290) main: Hello esp32!
+[0m
+[0;32mI (6290) main: Hello esp32!
+[0m
+[0;32mI (7290) main: Hello esp32!
+[0m
+[0;32mI (8290) main: Hello esp32!
+[0m
+[0;32mI (9290) main: Hello esp32!
+[0m
+[0;32mI (10290) main: Hello esp32!
+[0m
+[0;32mI (11290) main: Hello esp32!
+[0m
+[0;32mI (12290) main: Hello esp32!
+[0m
+[0;32mI (13290) main: Hello esp32!
+[0m
+[0;32mI (14290) main: Hello esp32!
+[0m
+[0;32mI (15290) main: Hello esp32!
+[0m
+[0;32mI (16290) main: Hello esp32!
+[0m
+[0;32mI (17290) main: Hello esp32!
+[0m
+[0;32mI (18290) main: Hello esp32!
+[0m
+[0;32mI (19290) main: Hello esp32!
+[0m
+[0;32mI (20290) main: Hello esp32!
+[0m
+[0;32mI (21290) main: Hello esp32!
+[0m
+[0;32mI (22290) main: Hello esp32!
+[0m
+[0;32mI (23290) main: Hello esp32!
+[0m
+[0;32mI (24290) main: Hello esp32!
+[0m
+[0;32mI (25290) main: Hello esp32!
+[0m
+[0;32mI (26290) main: Hello esp32!
+[0m
+[0;32mI (27290) main: Hello esp32!
+[0m
+[0;32mI (28290) main: Hello esp32!
+[0m
+[0;32mI (29290) main: Hello esp32!
+[0m
+[0;32mI (30290) main: Hello esp32!
+[0m
+[0;32mI (31290) main: Hello esp32!
+[0m
+[0;32mI (32290) main: Hello esp32!
+[0m
+[0;32mI (33290) main: Hello esp32!
+[0m
+[0;32mI (34290) main: Hello esp32!
+[0m
+[0;32mI (35290) main: Hello esp32!
+[0m
+[0;32mI (36290) main: Hello esp32!
+[0m
+[0;32mI (37290) main: Hello esp32!
+[0m
+[0;32mI (38290) main: Hello esp32!
+[0m
+[0;32mI (39290) main: Hello esp32!
+[0m
+[0;32mI (40290) main: Hello esp32!
+[0m
+[0;32mI (41290) main: Hello esp32!
+[0m
+[0;32mI (42290) main: Hello esp32!
+[0m
+[0;32mI (43290) main: Hello esp32!
+[0m
+[0;32mI (44290) main: Hello esp32!
+[0m
+[0;32mI (45290) main: Hello esp32!
+[0m
+[0;32mI (46290) main: Hello esp32!
+[0m
+[0;32mI (47290) main: Hello esp32!
+[0m
+[0;32mI (48290) main: Hello esp32!
+[0m
+[0;32mI (49290) main: Hello esp32!
+[0m
+[0;32mI (50290) main: Hello esp32!
+[0m
+[0;32mI (51290) main: Hello esp32!
+[0m
+[0;32mI (52290) main: Hello esp32!
+[0m
+[0;32mI (53290) main: Hello esp32!
+[0m
+[0;32mI (54290) main: Hello esp32!
+[0m
+[0;32mI (55290) main: Hello esp32!
+[0m
+[0;32mI (56290) main: Hello esp32!
+[0m
+[0;32mI (57290) main: Hello esp32!
+[0m
+[0;32mI (58290) main: Hello esp32!
+[0m
+[0;32mI (59290) main: Hello esp32!
+[0m
+[0;32mI (60290) main: Hello esp32!
+[0m
+[0;32mI (61290) main: Hello esp32!
+[0m
+[0;32mI (62290) main: Hello esp32!
+[0m
+[0;32mI (63290) main: Hello esp32!
+[0m
+[0;32mI (64290) main: Hello esp32!
+[0m
+[0;32mI (65290) main: Hello esp32!
+[0m
+[0;32mI (66290) main: Hello esp32!
+[0m
+[0;32mI (67290) main: Hello esp32!
+[0m
+[0;32mI (68290) main: Hello esp32!
+[0m
+[0;32mI (69290) main: Hello esp32!
+[0m
+[0;32mI (70290) main: Hello esp32!
+[0m
+[0;32mI (71290) main: Hello esp32!
+[0m
+[0;32mI (72290) main: Hello esp32!
+[0m
+[0;32mI (73290) main: Hello esp32!
+[0m
+[0;32mI (74290) main: Hello esp32!
+[0m
+[0;32mI (75290) main: Hello esp32!
+[0m
+[0;32mI (76290) main: Hello esp32!
+[0m
+[0;32mI (77290) main: Hello esp32!
+[0m
+[0;32mI (78290) main: Hello esp32!
+[0m
+[0;32mI (79290) main: Hello esp32!
+[0m
+[0;32mI (80290) main: Hello esp32!
+[0m
+[0;32mI (81290) main: Hello esp32!
+[0m
+[0;32mI (82290) main: Hello esp32!
+[0m
+[0;32mI (83290) main: Hello esp32!
+[0m
+[0;32mI (84290) main: Hello esp32!
+[0m
+[0;32mI (85290) main: Hello esp32!
+[0m
+[0;32mI (86290) main: Hello esp32!
+[0m
+[0;32mI (87290) main: Hello esp32!
+[0m
+[0;32mI (88290) main: Hello esp32!
+[0m
+[0;32mI (89290) main: Hello esp32!
+[0m
+[0;32mI (90290) main: Hello esp32!
+[0m
+[0;32mI (91290) main: Hello esp32!
+[0m
+[0;32mI (92290) main: Hello esp32!
+[0m
+[0;32mI (93290) main: Hello esp32!
+[0m
+[0;32mI (94290) main: Hello esp32!
+[0m
+[0;32mI (95290) main: Hello esp32!
+[0m
+[0;32mI (96290) main: Hello esp32!
+[0m
+[0;32mI (97290) main: Hello esp32!
+[0m
+[0;32mI (98290) main: Hello esp32!
+[0m
+[0;32mI (99290) main: Hello esp32!
+[0m
+[0;32mI (100290) main: Hello esp32!
+[0m
+[0;32mI (101290) main: Hello esp32!
+[0m
+[0;32mI (102290) main: Hello esp32!
+[0m
+[0;32mI (103290) main: Hello esp32!
+[0m
+[0;32mI (104290) main: Hello esp32!
+[0m
+[0;32mI (105290) main: Hello esp32!
+[0m
+[0;32mI (106290) main: Hello esp32!
+[0m
+[0;32mI (107290) main: Hello esp32!
+[0m
+[0;32mI (108290) main: Hello esp32!
+[0m
+[0;32mI (109290) main: Hello esp32!
+[0m
+[0;32mI (110290) main: Hello esp32!
+[0m
+[0;32mI (111290) main: Hello esp32!
+[0m
+Guru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout ox3fc9080c 0xffffffff
+3fc90810: 0x3fc9080c 0x3fc9080c 0x00000000 0x3fc90820 0xffffffff 0x3fc90820 0x3fc90820 0x00000001
+3fc90830: 0x00000001 0x00000000 0xed00ffff 0x00000000 0xcc560720 0x3fc907ec 0x00000054 0x00000000
+3fc90850: 0x3fc9084c 0x00000000 0x00000000 0x00000000 0x3fc90864 0xffffffff 0x3fc90864 0x3fc90864
+3fc90870: 0x00000000 0x3fc90878 0xffffffff 0x3fc90878 0x3fc90878 0x00000001 0x00000001 0x00000000
+3fc90890: 0x9b00ffff 0x00000000 0x628dde4f 0x3fc90844 0x00000054 0x00000000 0x3fc908a4 0x00000000
+3fc908b0: 0x00000000 0x00000000 0x3fc908bc 0xffffffff 0x3fc908bc 0x3fc908bc 0x00000000 0x3fc908d0
+3fc908d0: 0xffffffff 0x3fc908d0 0x3fc908d0 0x00000001 0x00000001 0x00000000 0x4500ffff 0x00000000
+3fc908f0: 0x1f195bc9 0x3fc9089c 0x00000010 0x3fc8cc8c 0x3fc90920 0x00000001 0x00000000 0x0000000c
+3fc90910: 0x08520008 0x00000000 0x00000000 0x00000010 0x00000000 0x3fc9068c 0x00000000 0x00000000
+3fc90930: 0x0002f6c9 0x3fc8d054 0x3fc8d054 0x810927b6 0x4c20cc5e 0x14263292 0x04c26c4d 0x5141476e
+3fc90950: 0xbb9776dc 0xc1bdb37f 0xbedd3aad 0xe719f0f3 0x255ce707 0xac21b6cf 0xd7e1c9d2 0x383086d4
+3fc90970: 0xb1137b92 0x934dbc4f 0xb61cfda9 0xed7a1072 0x48b0512f 0x401022ca 0x6069922c 0x2650d288
+3fc90990: 0xe08984b0 0x1d6ebb6e 0xc6affc51 0x17d7bcf0 0xc97660f9 0x00c19038 0xcd0f4180 0x0108cc85
+3fc909b0: 0xd7dd1170 0x439e7eb8 0x737efed7 0xd9708b9e 0x85ad1a99 0xc21b43b3 0x348422d2 0x849931b9
+3fc909d0: 0x67438cd9 0xf9a77bcd 0x08ae6aaf 0x7845b31d 0x367e9585 0xd19e5060 0x2340a2cc 0x1ebe45ce
+3fc909f0: 0x38b22fb9 0x777662d1 0x3ff565ce 0x13eef013 0xc581ffa0 0x1805423c 0x0e764638 0x60f784c0
+3fc90a10: 0xb417bf38 0x3aa42df7 0xcfd5d58b 0xbc79878d 0x9c3ad690 0x664b8f34 0x65bab356 0xca2c6c17
+
+
+
+ELF file SHA256: 471a3843d
+
+Rebooting...
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0xd (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40380746
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1738
+load:0x403cc710,len:0xb9c
+load:0x403ce710,len:0x2e34
+entry 0x403cc71a
+[0;32mI (24) boot: ESP-IDF v5.3-dev-696-g76923a7a7f 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Dec  2 2023 12:17:43[0m
+[0;32mI (24) boot: chip revision: v0.4[0m
+[0;32mI (28) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (33) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (38) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (48) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (85) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=09be8h ( 39912) map[0m
+[0;32mI (100) esp_image: segment 1: paddr=00019c10 vaddr=3fc8ae00 size=012ach (  4780) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001aec4 vaddr=40380000 size=05154h ( 20820) load[0m
+[0;32mI (115) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=16cfch ( 93436) map[0m
+[0;32mI (134) esp_image: segment 4: paddr=00036d24 vaddr=40385154 size=05bd4h ( 23508) load[0m
+[0;32mI (142) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (142) boot: Disabling RNG early entropy source...[0m
+[0;32mI (154) cpu_start: Unicore app[0m
+[0;32mI (163) cpu_start: Pro cpu start user code[0m
+[0;32mI (163) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (163) cpu_start: Application information:[0m
+[0;32mI (166) cpu_start: Project name:     blink-test[0m
+[0;32mI (171) cpu_start: App version:      v5.3-dev-696-g76923a7a7f[0m
+[0;32mI (178) cpu_start: Compile time:     Dec  2 2023 12:17:53[0m
+[0;32mI (184) cpu_start: ELF file SHA256:  471a3843d...[0m
+[0;32mI (189) cpu_start: ESP-IDF:          v5.3-dev-696-g76923a7a7f[0m
+[0;32mI (196) cpu_start: Min chip rev:     v0.3[0m
+[0;32mI (200) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (205) cpu_start: Chip rev:         v0.4[0m
+[0;32mI (210) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (217) heap_init: At 3FC8D040 len 00032FC0 (203 KiB): RAM[0m
+[0;32mI (223) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (230) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (237) heap_init: At 50000010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (244) spi_flash: detected chip: generic[0m
+[0;32mI (248) spi_flash: flash io: dio[0m
+[0;33mW (252) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (266) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (272) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (279) main_task: Started on CPU0[0m
+[0;32mI (279) main_task: Calling app_main()[0m
+[0;32mI (279) main: Hello esp32!
+[0m
+[0;32mI (1289) main: Hello esp32!
+[0m
+[0;32mI (2289) main: Hello esp32!
+[0m
+[0;32mI (3289) main: Hello esp32!
+[0m
+[0;32mI (4289) main: Hello esp32!
+[0m
+[0;32mI (5289) main: Hello esp32!
+[0m
+[0;32mI (6289) main: Hello esp32!
+[0m
+[0;32mI (7289) main: Hello esp32!
+[0m
+[0;32mI (8289) main: Hello esp32!
+[0m
+[0;32mI (9289) main: Hello esp32!
+[0m
+[0;32mI (10289) main: Hello esp32!
+[0m
+[0;32mI (11289) main: Hello esp32!
+[0m
+[0;32mI (12289) main: Hello esp32!
+[0m
+[0;32mI (13289) main: Hello esp32!
+[0m
+[0;32mI (14289) main: Hello esp32!
+[0m
+[0;32mI (15289) main: Hello esp32!
+[0m
+[0;32mI (16289) main: Hello esp32!
+[0m
+[0;32mI (17289) main: Hello esp32!
+[0m
+[0;32mI (18289) main: Hello esp32!
+[0m
+[0;32mI (19289) main: Hello esp32!
+[0m
+[0;32mI (20289) main: Hello esp32!
+[0m
+[0;32mI (21289) main: Hello esp32!
+[0m
+[0;32mI (22289) main: Hello esp32!
+[0m
+[0;32mI (23289) main: Hello esp32!
+[0m
+[0;32mI (24289) main: Hello esp32!
+[0m

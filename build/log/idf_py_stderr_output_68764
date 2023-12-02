@@ -1,0 +1,10 @@
+/home/prlx/test/esp-idf/projects/blink-test/main/blink-test.c: In function 'app_main':
+/home/prlx/test/esp-idf/projects/blink-test/main/blink-test.c:11:9: error: implicit declaration of function 'ESPLOG'; did you mean 'ESP_LOGD'? [-Werror=implicit-function-declaration]
+   11 |         ESPLOG(ourTaskName, "Hello, starting up!\n");
+      |         ^~~~~~
+      |         ESP_LOGD
+cc1: some warnings being treated as errors
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/blink-test.c.obj] Error 1
+make[2]: *** [CMakeFiles/Makefile2:4960: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2165: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2
